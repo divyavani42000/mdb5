@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+</head>
+<body>
+    <h1 class="btn btn-success">mdb5</h1>
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{% static 'images/dhoni.jfif' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/kohli.jfif' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/bumrah/jfif' %}" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/mdb.es.min.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>
